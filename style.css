@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app{
+    text-align: center;
+    background: radial-gradient(rgb(67, 244, 229),rgb(205, 43, 246),red)
+}
+h1{
+    font-weight: 900;
+    font-size: largeer;
+    font-style: italic;
+}
+#addTaskBtn{
+    background-color: rgb(7, 242, 77);
+    margin: 5px;
+    color: rgb(106, 26, 217);
+    font-style: italic;
+
+}
+#taskInput{
+    background-color:aqua;
+}
+#taskList{
+    text-decoration: none;
+}
+::marker{
+    color: rgb(161, 29, 201);
+}
+.deleteBtn{
+    color: red;
+    background-color: white;
+    margin-left: 50px;
+}
